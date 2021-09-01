@@ -13,4 +13,4 @@ deploy:
     - dpl --provider=heroku --app=$REPO_NAME --api-key=$HEROKU_API_KEY
     - echo "Deployment end..."
   only:
-    - day3 
+    - master 
